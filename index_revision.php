@@ -238,8 +238,6 @@
                             <?= $data["receiver_address"]; ?>
                           </td>
                           <td>
-                            <?= $data["receiver_address"]; ?>
-                          </td>
                               <?php 
                                 if($data["receiver_address"]=='ECOMMERCE DELIVERY')
                                 {
@@ -276,6 +274,7 @@
 
                                 echo "$tot_commission RM";
                               ?>
+                          </td>
                           <td>
 
                             <h5 class="text-truncate font-size-14 m-0">
